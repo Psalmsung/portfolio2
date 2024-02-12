@@ -60,12 +60,22 @@ html{
     cursor: pointer;
     transition: .4s;
 }
+
+.btn a{
+   color: #f1f1f1;
+   text-decoration: none;
+}
 .btn>i{
     margin-left: 10px;
 }
 .btn:hover{
     background: var(--second-color);
     color: var(--color-white);
+}
+
+.btn:hover a{
+    text-decoration: none;
+    color: #f1f1f1;
 }
 
 /* ----- GLOBAL ICONS DESIGN ----- */
@@ -98,6 +108,14 @@ nav{
 .nav-logo{
    position: relative;
 }
+.nav-button a{
+    color: #000000;
+    text-decoration: none;
+ }
+.featured-text-btn a{
+    color: #000000;
+    text-decoration: none;
+ }
 .nav-name{
     font-size: 30px;
     font-weight: 600;
